@@ -1,4 +1,4 @@
-using module .\СheckingResult.psm1
+using module .\CheckingResult.psm1
 using namespace System.Data.SQLite
 
 Set-StrictMode -Version 'latest'
@@ -19,15 +19,15 @@ class DatabaseManager {
         }
     }
 
-    Push ([СheckingResult]$СheckingResult) {
+    Push ([CheckingResult]$CheckingResult) {
 
         $this.Conn.Open()
         try {
             $Comm = $this.Conn.CreateCommand()
             $Comm.CommandText = 'INSERT INTO CHECKING_RESULTS (PATH, DT, RESULT) VALUES (@PATH, @DT, @RESULT)'
-            $Comm.Parameters.AddWithValue('@PATH', $СheckingResult.What)
-            $Comm.Parameters.AddWithValue('@DT', $СheckingResult.When.ToString('yyyy-MM-dd hh:mm:ss'))
-            $Comm.Parameters.AddWithValue('@RESULT', $СheckingResult.Result)
+            $Comm.Parameters.AddWithValue('@PATH', $CheckingResult.What)
+            $Comm.Parameters.AddWithValue('@DT', $CheckingResult.When.ToString('yyyy-MM-dd hh:mm:ss'))
+            $Comm.Parameters.AddWithValue('@RESULT', $CheckingResult.Result)
             $Comm.ExecuteNonQuery()
         }
         finally {
@@ -35,9 +35,9 @@ class DatabaseManager {
         }
     }
 
-    [СheckingResult] GetLast ([string]$Path){
+    [CheckingResult] GetLast ([string]$Path){
 
-        $СheckingResult = [СheckingResult]::new()
+        $CheckingResult = [CheckingResult]::new()
         
         $this.Conn.Open()
         
@@ -47,15 +47,15 @@ class DatabaseManager {
             $Comm.Parameters.AddWithValue('@PATH', $Path)
             $DataReader = $Comm.ExecuteReader()
             while ($DataReader.Read()){
-                $СheckingResult.What = $DataReader['PATH']
-                $СheckingResult.When = $DataReader.GetDatetime(1)
-                $СheckingResult.Result = $DataReader['RESULT'] -eq 1 ? $true : $false
+                $CheckingResult.What = $DataReader['PATH']
+                $CheckingResult.When = $DataReader.GetDatetime(1)
+                $CheckingResult.Result = $DataReader['RESULT'] -eq 1 ? $true : $false
             }
         }
         finally {
             $this.Conn.Close()
         }
 
-        return $СheckingResult
+        return $CheckingResult
     }
 }

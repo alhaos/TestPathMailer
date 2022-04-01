@@ -5,7 +5,7 @@ using assembly .\lib\NLog.dll
 
 using module .\classes\DatabaseManager.psm1
 using module .\classes\NLog.psm1
-using module .\classes\СheckingResult.psm1
+using module .\classes\CheckingResult.psm1
 using module .\classes\Mailer.psm1
 
 
@@ -22,7 +22,7 @@ $DatabaseManager = [DatabaseManager]::new()
 foreach ($target in $Global:conf.MonitoredPath.Keys) {
     $Global:logger.Trace('process target [{0}]', $target)
     $LastResult = $DatabaseManager.GetLast($target)
-    $CurrentResult = [СheckingResult]::new($target)
+    $CurrentResult = [CheckingResult]::new($target)
 
     $Global:logger.Trace('   last status: [{0,-5}] datetime [{1:yyyy-MM-dd hh:mm:ss}]', $LastResult.Result, $LastResult.When)
     $Global:logger.Trace('current status: [{0,-5}] datetime [{1:yyyy-MM-dd hh:mm:ss}]', $CurrentResult.Result, $CurrentResult.When)
