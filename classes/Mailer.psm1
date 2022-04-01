@@ -4,39 +4,31 @@ using namespace MimeKit
 class Mailer {
 
     static Send (
-        [String]$HtmlBody,
+        [string[]]$To,
+        [string[]]$Cc,
+        [string[]]$Bcc,
         [String]$Subject,
-        [String[]]$Attachments
+        [String]$HtmlBody
     ) {
 
-        #$global:logger.Trace("Send report {0} started", $ReportName) 
-       
         $SMTPClient = [SmtpClient]::new()
         $BodyBuilder = [BodyBuilder]::new()
 
         $BodyBuilder.HtmlBody = $HtmlBody
         
-        foreach ($Attachment in $Attachments) {
-            $BodyBuilder.Attachments.Add($Attachment)            
-        }
-        
         $Message = [MimeMessage]::new()
         $Message.From.Add($global:conf.Mail.EmailFrom)
 
-        foreach ($email in $global:conf.Mail.EmailsTo) {
+        foreach ($email in $To) {
             $Message.To.Add($email) 
-            #$global:logger.Trace($email)
         }     
-
    
-        foreach ($email in $global:conf.Mail.EmailsCc) {
+        foreach ($email in $Cc) {
             $Message.Cc.Add($email) 
-            #$global:logger.Trace($email)
         } 
     
-        foreach ($email in $global:conf.Mail.EmailsBcc) {
+        foreach ($email in $Bcc) {
             $Message.Bcc.Add($email) 
-            #$global:logger.Trace($email)
         } 
            
         $Message.Subject = $Subject
@@ -55,7 +47,6 @@ class Mailer {
             $SMTPClient.Disconnect($true)
             $SMTPClient.Dispose()
         }
-        #$global:logger.Trace("Send report {0} finished", $ReportName) 
     }
 }
 

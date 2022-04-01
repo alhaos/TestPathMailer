@@ -1,0 +1,275 @@
+2022-04-01 16:44:56.2213|TRACE|logger|TestPathMailer session start
+2022-04-01 16:44:56.2988|TRACE|logger|process target [c:\tmpp]
+2022-04-01 16:44:56.4011|TRACE|logger|   last status: [{0,s10}] datetime [{1:yyyy-MM-dd hh:mm:ss}]
+2022-04-01 16:44:56.4011|TRACE|logger|current status: [{0,s10}] datetime [{1:yyyy-MM-dd hh:mm:ss}]
+2022-04-01 16:44:56.4377|TRACE|logger|process target [C:\utils]
+2022-04-01 16:44:56.4475|TRACE|logger|   last status: [{0,s10}] datetime [{1:yyyy-MM-dd hh:mm:ss}]
+2022-04-01 16:44:56.4475|TRACE|logger|current status: [{0,s10}] datetime [{1:yyyy-MM-dd hh:mm:ss}]
+2022-04-01 16:44:56.4475|TRACE|logger|TestPathMailer session end
+2022-04-01 16:45:30.3170|TRACE|logger|TestPathMailer session start
+2022-04-01 16:45:30.3937|TRACE|logger|process target [C:\utils]
+2022-04-01 16:45:30.4927|TRACE|logger|   last status: [True] datetime [2022-01-04 12:25:40]
+2022-04-01 16:45:30.4927|TRACE|logger|current status: [True] datetime [2022-01-04 12:25:40]
+2022-04-01 16:45:30.5411|TRACE|logger|process target [c:\tmpp]
+2022-04-01 16:45:30.5497|TRACE|logger|   last status: [False] datetime [2022-01-04 04:44:56]
+2022-04-01 16:45:30.5497|TRACE|logger|current status: [False] datetime [2022-01-04 04:44:56]
+2022-04-01 16:45:30.5497|TRACE|logger|TestPathMailer session end
+2022-04-01 16:47:42.9630|TRACE|logger|TestPathMailer session start
+2022-04-01 16:47:43.0343|TRACE|logger|process target [c:\tmpp]
+2022-04-01 16:47:43.1263|TRACE|logger|   last status: [  False] datetime [2022-01-04 04:45:30]
+2022-04-01 16:47:43.1263|TRACE|logger|current status: [  False] datetime [2022-01-04 04:45:30]
+2022-04-01 16:47:43.1610|TRACE|logger|process target [C:\utils]
+2022-04-01 16:47:43.1689|TRACE|logger|   last status: [   True] datetime [2022-01-04 12:25:40]
+2022-04-01 16:47:43.1689|TRACE|logger|current status: [   True] datetime [2022-01-04 12:25:40]
+2022-04-01 16:47:43.1689|TRACE|logger|TestPathMailer session end
+2022-04-01 16:48:03.0927|TRACE|logger|TestPathMailer session start
+2022-04-01 16:48:03.1622|TRACE|logger|process target [C:\utils]
+2022-04-01 16:48:03.2442|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:48:03.2442|TRACE|logger|current status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:48:03.2816|TRACE|logger|process target [c:\tmpp]
+2022-04-01 16:48:03.2816|TRACE|logger|   last status: [False] datetime [2022-01-04 04:47:43]
+2022-04-01 16:48:03.2865|TRACE|logger|current status: [False] datetime [2022-01-04 04:47:43]
+2022-04-01 16:48:03.2865|TRACE|logger|TestPathMailer session end
+2022-04-01 16:59:04.2747|TRACE|logger|TestPathMailer session start
+2022-04-01 16:59:04.3388|TRACE|logger|process target [C:\utils]
+2022-04-01 16:59:04.4181|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:04.4181|TRACE|logger|current status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:04.4494|TRACE|logger|process target [c:\tmpp]
+2022-04-01 16:59:04.4494|TRACE|logger|   last status: [False] datetime [2022-01-04 04:48:03]
+2022-04-01 16:59:04.4494|TRACE|logger|current status: [False] datetime [2022-01-04 04:48:03]
+2022-04-01 16:59:04.4647|TRACE|logger|TestPathMailer session end
+2022-04-01 16:59:07.9600|TRACE|logger|TestPathMailer session start
+2022-04-01 16:59:08.0275|TRACE|logger|process target [C:\utils]
+2022-04-01 16:59:08.1088|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:08.1088|TRACE|logger|current status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:08.1325|TRACE|logger|process target [c:\tmpp]
+2022-04-01 16:59:08.1325|TRACE|logger|   last status: [False] datetime [2022-01-04 04:59:04]
+2022-04-01 16:59:08.1325|TRACE|logger|current status: [False] datetime [2022-01-04 04:59:04]
+2022-04-01 16:59:08.1487|TRACE|logger|TestPathMailer session end
+2022-04-01 16:59:28.0639|TRACE|logger|TestPathMailer session start
+2022-04-01 16:59:28.1330|TRACE|logger|process target [C:\utils]
+2022-04-01 16:59:28.2130|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:28.2130|TRACE|logger|current status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:28.2364|TRACE|logger|process target [c:\tmpp]
+2022-04-01 16:59:28.2470|TRACE|logger|   last status: [False] datetime [2022-01-04 04:59:08]
+2022-04-01 16:59:28.2470|TRACE|logger|current status: [False] datetime [2022-01-04 04:59:08]
+2022-04-01 16:59:28.2470|TRACE|logger|TestPathMailer session end
+2022-04-01 16:59:42.1075|TRACE|logger|TestPathMailer session start
+2022-04-01 16:59:42.1791|TRACE|logger|process target [c:\tmpp]
+2022-04-01 16:59:42.2622|TRACE|logger|   last status: [True ] datetime [2022-01-04 04:59:28]
+2022-04-01 16:59:42.2622|TRACE|logger|current status: [True ] datetime [2022-01-04 04:59:28]
+2022-04-01 16:59:42.2840|TRACE|logger|process target [C:\utils]
+2022-04-01 16:59:42.2840|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:42.2840|TRACE|logger|current status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:42.2840|TRACE|logger|TestPathMailer session end
+2022-04-01 16:59:50.5716|TRACE|logger|TestPathMailer session start
+2022-04-01 16:59:50.6371|TRACE|logger|process target [C:\utils]
+2022-04-01 16:59:50.7223|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:50.7223|TRACE|logger|current status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 16:59:50.7586|TRACE|logger|process target [c:\tmpp]
+2022-04-01 16:59:50.7586|TRACE|logger|   last status: [True ] datetime [2022-01-04 04:59:42]
+2022-04-01 16:59:50.7586|TRACE|logger|current status: [True ] datetime [2022-01-04 04:59:42]
+2022-04-01 17:00:32.1808|TRACE|logger|TestPathMailer session start
+2022-04-01 17:00:32.2449|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:00:32.3289|TRACE|logger|   last status: [True ] datetime [2022-01-04 04:59:42]
+2022-04-01 17:00:32.3289|TRACE|logger|current status: [False] datetime [2022-04-01 05:00:32]
+2022-04-01 17:00:32.3424|TRACE|logger|availability lost
+2022-04-01 17:00:53.8054|ERROR|logger|Exception calling "Connect" with "3" argument(s): "Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера."
+2022-04-01 17:00:54.7102|TRACE|logger|TestPathMailer session start
+2022-04-01 17:00:54.7745|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:00:54.8587|TRACE|logger|   last status: [True ] datetime [2022-01-04 04:59:42]
+2022-04-01 17:00:54.8587|TRACE|logger|current status: [False] datetime [2022-04-01 05:00:54]
+2022-04-01 17:00:54.8706|TRACE|logger|availability lost
+2022-04-01 17:01:16.0605|ERROR|logger|Exception calling "Connect" with "3" argument(s): "Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера."
+2022-04-01 17:02:35.2184|TRACE|logger|TestPathMailer session start
+2022-04-01 17:02:35.2990|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:02:35.3876|TRACE|logger|   last status: [True ] datetime [2022-01-04 04:59:42]
+2022-04-01 17:02:35.3876|TRACE|logger|current status: [False] datetime [2022-04-01 05:02:35]
+2022-04-01 17:02:35.3997|TRACE|logger|availability lost
+2022-04-01 17:02:56.5967|ERROR|logger|Exception calling "Connect" with "3" argument(s): "Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера."
+2022-04-01 17:03:03.5583|TRACE|logger|TestPathMailer session start
+2022-04-01 17:03:03.6261|TRACE|logger|process target [C:\utils]
+2022-04-01 17:03:03.7118|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:03:03.7118|TRACE|logger|current status: [True ] datetime [2022-04-01 05:03:03]
+2022-04-01 17:03:03.7403|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:03:03.7496|TRACE|logger|   last status: [True ] datetime [2022-01-04 04:59:42]
+2022-04-01 17:03:03.7496|TRACE|logger|current status: [False] datetime [2022-04-01 05:03:03]
+2022-04-01 17:03:03.7597|TRACE|logger|availability lost
+2022-04-01 17:03:24.9538|ERROR|logger|Exception calling "Connect" with "3" argument(s): "Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера."
+2022-04-01 17:03:26.4965|TRACE|logger|TestPathMailer session start
+2022-04-01 17:03:26.5667|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:03:26.6506|TRACE|logger|   last status: [True ] datetime [2022-01-04 04:59:42]
+2022-04-01 17:03:26.6506|TRACE|logger|current status: [False] datetime [2022-04-01 05:03:26]
+2022-04-01 17:03:26.6646|TRACE|logger|availability lost
+2022-04-01 17:03:47.8533|ERROR|logger|Exception calling "Connect" with "3" argument(s): "Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера."
+2022-04-01 17:03:49.3417|TRACE|logger|TestPathMailer session start
+2022-04-01 17:03:49.4120|TRACE|logger|process target [C:\utils]
+2022-04-01 17:03:49.4948|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:03:49.4948|TRACE|logger|current status: [True ] datetime [2022-04-01 05:03:49]
+2022-04-01 17:03:49.5216|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:03:49.5216|TRACE|logger|   last status: [True ] datetime [2022-01-04 04:59:42]
+2022-04-01 17:03:49.5216|TRACE|logger|current status: [True ] datetime [2022-04-01 05:03:49]
+2022-04-01 17:03:49.5381|TRACE|logger|TestPathMailer session end
+2022-04-01 17:03:52.5964|TRACE|logger|TestPathMailer session start
+2022-04-01 17:03:52.6638|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:03:52.7491|TRACE|logger|   last status: [True ] datetime [2022-01-04 05:03:49]
+2022-04-01 17:03:52.7491|TRACE|logger|current status: [True ] datetime [2022-04-01 05:03:52]
+2022-04-01 17:03:52.7841|TRACE|logger|process target [C:\utils]
+2022-04-01 17:03:52.7886|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:03:52.7886|TRACE|logger|current status: [True ] datetime [2022-04-01 05:03:52]
+2022-04-01 17:03:52.7886|TRACE|logger|TestPathMailer session end
+2022-04-01 17:03:58.3117|TRACE|logger|TestPathMailer session start
+2022-04-01 17:03:58.3842|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:03:58.4657|TRACE|logger|   last status: [True ] datetime [2022-01-04 05:03:52]
+2022-04-01 17:03:58.4657|TRACE|logger|current status: [True ] datetime [2022-04-01 05:03:58]
+2022-04-01 17:03:58.5016|TRACE|logger|process target [C:\utils]
+2022-04-01 17:03:58.5101|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:03:58.5101|TRACE|logger|current status: [True ] datetime [2022-04-01 05:03:58]
+2022-04-01 17:03:58.5101|TRACE|logger|TestPathMailer session end
+2022-04-01 17:04:01.8391|TRACE|logger|TestPathMailer session start
+2022-04-01 17:04:01.9112|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:04:01.9878|TRACE|logger|   last status: [True ] datetime [2022-01-04 05:03:58]
+2022-04-01 17:04:01.9878|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:01]
+2022-04-01 17:04:02.0130|TRACE|logger|process target [C:\utils]
+2022-04-01 17:04:02.0130|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:04:02.0130|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:02]
+2022-04-01 17:04:02.0276|TRACE|logger|TestPathMailer session end
+2022-04-01 17:04:06.2025|TRACE|logger|TestPathMailer session start
+2022-04-01 17:04:06.2749|TRACE|logger|process target [C:\utils]
+2022-04-01 17:04:06.3527|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:04:06.3527|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:06]
+2022-04-01 17:04:06.3734|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:04:06.3817|TRACE|logger|   last status: [True ] datetime [2022-01-04 05:04:01]
+2022-04-01 17:04:06.3817|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:06]
+2022-04-01 17:04:06.3817|TRACE|logger|TestPathMailer session end
+2022-04-01 17:04:11.1424|TRACE|logger|TestPathMailer session start
+2022-04-01 17:04:11.2086|TRACE|logger|process target [C:\utils]
+2022-04-01 17:04:11.2890|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:04:11.2890|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:11]
+2022-04-01 17:04:11.3135|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:04:11.3231|TRACE|logger|   last status: [True ] datetime [2022-01-04 05:04:06]
+2022-04-01 17:04:11.3231|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:11]
+2022-04-01 17:04:11.3231|TRACE|logger|TestPathMailer session end
+2022-04-01 17:04:14.4730|TRACE|logger|TestPathMailer session start
+2022-04-01 17:04:14.5438|TRACE|logger|process target [C:\utils]
+2022-04-01 17:04:14.6285|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:04:14.6285|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:14]
+2022-04-01 17:04:14.6542|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:04:14.6542|TRACE|logger|   last status: [True ] datetime [2022-01-04 05:04:11]
+2022-04-01 17:04:14.6542|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:14]
+2022-04-01 17:04:14.6679|TRACE|logger|TestPathMailer session end
+2022-04-01 17:04:25.6691|TRACE|logger|TestPathMailer session start
+2022-04-01 17:04:25.7360|TRACE|logger|process target [C:\utils]
+2022-04-01 17:04:25.8204|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:04:25.8204|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:25]
+2022-04-01 17:04:25.8542|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:04:25.8641|TRACE|logger|   last status: [True ] datetime [2022-01-04 05:04:14]
+2022-04-01 17:04:25.8641|TRACE|logger|current status: [True ] datetime [2022-04-01 05:04:25]
+2022-04-01 17:04:25.8641|TRACE|logger|TestPathMailer session end
+2022-04-01 17:05:16.8089|TRACE|logger|TestPathMailer session start
+2022-04-01 17:05:16.8756|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:05:16.9542|TRACE|logger|   last status: [True ] datetime [2022-01-04 05:04:25]
+2022-04-01 17:05:16.9542|TRACE|logger|current status: [True ] datetime [2022-04-01 05:05:16]
+2022-04-01 17:05:16.9879|TRACE|logger|process target [C:\utils]
+2022-04-01 17:05:16.9879|TRACE|logger|   last status: [True ] datetime [2022-01-04 12:25:40]
+2022-04-01 17:05:16.9879|TRACE|logger|current status: [True ] datetime [2022-04-01 05:05:16]
+2022-04-01 17:05:17.0047|TRACE|logger|TestPathMailer session end
+2022-04-01 17:07:38.5962|TRACE|logger|TestPathMailer session start
+2022-04-01 17:07:38.6661|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:08:33.1523|TRACE|logger|TestPathMailer session start
+2022-04-01 17:08:33.2205|TRACE|logger|process target [C:\utils]
+2022-04-01 17:09:20.1587|TRACE|logger|TestPathMailer session start
+2022-04-01 17:09:20.2329|TRACE|logger|process target [C:\utils]
+2022-04-01 17:09:42.2143|TRACE|logger|TestPathMailer session start
+2022-04-01 17:09:42.2879|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:10:14.8213|TRACE|logger|TestPathMailer session start
+2022-04-01 17:10:14.8995|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:11:00.9082|TRACE|logger|TestPathMailer session start
+2022-04-01 17:11:00.9799|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:11:21.0656|TRACE|logger|TestPathMailer session start
+2022-04-01 17:11:21.1378|TRACE|logger|process target [C:\utils]
+2022-04-01 17:12:06.1845|TRACE|logger|TestPathMailer session start
+2022-04-01 17:12:06.2493|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:12:45.4708|TRACE|logger|TestPathMailer session start
+2022-04-01 17:12:45.5394|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:13:02.6741|TRACE|logger|TestPathMailer session start
+2022-04-01 17:13:02.7464|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:13:41.1149|TRACE|logger|TestPathMailer session start
+2022-04-01 17:13:41.1825|TRACE|logger|process target [C:\utils]
+2022-04-01 17:13:57.9335|TRACE|logger|TestPathMailer session start
+2022-04-01 17:13:58.0066|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:14:35.7267|TRACE|logger|TestPathMailer session start
+2022-04-01 17:14:35.7907|TRACE|logger|process target [C:\utils]
+2022-04-01 17:14:53.3698|TRACE|logger|TestPathMailer session start
+2022-04-01 17:14:53.4410|TRACE|logger|process target [C:\utils]
+2022-04-01 17:14:53.5344|TRACE|logger|   last status: [True ] datetime [2022-04-01 12:25:40]
+2022-04-01 17:14:53.5344|TRACE|logger|current status: [True ] datetime [2022-04-01 05:14:53]
+2022-04-01 17:14:53.5567|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:14:53.5687|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:05:16]
+2022-04-01 17:14:53.5687|TRACE|logger|current status: [True ] datetime [2022-04-01 05:14:53]
+2022-04-01 17:14:53.5687|TRACE|logger|TestPathMailer session end
+2022-04-01 17:15:36.5871|TRACE|logger|TestPathMailer session start
+2022-04-01 17:15:36.6565|TRACE|logger|process target [C:\utils]
+2022-04-01 17:17:36.9751|TRACE|logger|TestPathMailer session start
+2022-04-01 17:17:37.0443|TRACE|logger|process target [C:\utils]
+2022-04-01 17:18:38.7227|TRACE|logger|TestPathMailer session start
+2022-04-01 17:18:38.7958|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:18:38.8604|TRACE|logger|   last status: [False] datetime [0001-01-01 12:00:00]
+2022-04-01 17:18:38.8604|TRACE|logger|current status: [True ] datetime [2022-04-01 05:18:38]
+2022-04-01 17:18:38.8898|TRACE|logger|process target [C:\utils]
+2022-04-01 17:18:38.8898|TRACE|logger|   last status: [False] datetime [0001-01-01 12:00:00]
+2022-04-01 17:18:38.8898|TRACE|logger|current status: [True ] datetime [2022-04-01 05:18:38]
+2022-04-01 17:18:38.9070|TRACE|logger|TestPathMailer session end
+2022-04-01 17:18:41.3346|TRACE|logger|TestPathMailer session start
+2022-04-01 17:18:41.4003|TRACE|logger|process target [C:\utils]
+2022-04-01 17:19:32.5988|TRACE|logger|TestPathMailer session start
+2022-04-01 17:19:32.6704|TRACE|logger|process target [C:\utils]
+2022-04-01 17:20:36.7380|TRACE|logger|TestPathMailer session start
+2022-04-01 17:20:36.8071|TRACE|logger|process target [C:\utils]
+2022-04-01 17:20:36.8889|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:18:38]
+2022-04-01 17:20:36.8889|TRACE|logger|current status: [True ] datetime [2022-04-01 05:20:36]
+2022-04-01 17:20:36.9130|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:20:36.9130|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:18:38]
+2022-04-01 17:20:36.9130|TRACE|logger|current status: [True ] datetime [2022-04-01 05:20:36]
+2022-04-01 17:20:36.9307|TRACE|logger|TestPathMailer session end
+2022-04-01 17:20:53.1385|TRACE|logger|TestPathMailer session start
+2022-04-01 17:20:53.2132|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:20:53.2914|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:20:36]
+2022-04-01 17:20:53.2914|TRACE|logger|current status: [True ] datetime [2022-04-01 05:20:53]
+2022-04-01 17:20:53.3160|TRACE|logger|process target [C:\utils]
+2022-04-01 17:20:53.3160|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:20:36]
+2022-04-01 17:20:53.3272|TRACE|logger|current status: [True ] datetime [2022-04-01 05:20:53]
+2022-04-01 17:20:53.3272|TRACE|logger|TestPathMailer session end
+2022-04-01 17:20:59.6316|TRACE|logger|TestPathMailer session start
+2022-04-01 17:20:59.6989|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:20:59.7820|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:20:53]
+2022-04-01 17:20:59.7820|TRACE|logger|current status: [True ] datetime [2022-04-01 05:20:59]
+2022-04-01 17:20:59.8060|TRACE|logger|process target [C:\utils]
+2022-04-01 17:20:59.8060|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:20:53]
+2022-04-01 17:20:59.8060|TRACE|logger|current status: [True ] datetime [2022-04-01 05:20:59]
+2022-04-01 17:20:59.8215|TRACE|logger|TestPathMailer session end
+2022-04-01 17:21:02.6562|TRACE|logger|TestPathMailer session start
+2022-04-01 17:21:02.7280|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:21:02.8132|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:20:59]
+2022-04-01 17:21:02.8132|TRACE|logger|current status: [True ] datetime [2022-04-01 05:21:02]
+2022-04-01 17:21:02.8357|TRACE|logger|process target [C:\utils]
+2022-04-01 17:21:02.8456|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:20:59]
+2022-04-01 17:21:02.8456|TRACE|logger|current status: [True ] datetime [2022-04-01 05:21:02]
+2022-04-01 17:21:02.8456|TRACE|logger|TestPathMailer session end
+2022-04-01 17:21:34.6670|TRACE|logger|TestPathMailer session start
+2022-04-01 17:21:34.7329|TRACE|logger|process target [C:\utils]
+2022-04-01 17:21:34.8173|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:21:02]
+2022-04-01 17:21:34.8173|TRACE|logger|current status: [True ] datetime [2022-04-01 05:21:34]
+2022-04-01 17:21:34.8435|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:21:34.8556|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:21:02]
+2022-04-01 17:21:34.8556|TRACE|logger|current status: [True ] datetime [2022-04-01 05:21:34]
+2022-04-01 17:21:34.8556|TRACE|logger|TestPathMailer session end
+2022-04-01 17:21:44.9904|TRACE|logger|TestPathMailer session start
+2022-04-01 17:21:45.0632|TRACE|logger|process target [c:\tmpp]
+2022-04-01 17:21:45.1372|TRACE|logger|   last status: [True ] datetime [2022-04-01 05:21:34]
+2022-04-01 17:21:45.1372|TRACE|logger|current status: [False] datetime [2022-04-01 05:21:45]
+2022-04-01 17:21:45.1372|TRACE|logger|availability lost
+2022-04-01 17:21:49.8255|ERROR|logger|Exception calling "Connect" with "3" argument(s): "An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name did not match the name given in the server's SSL certificate.
+"

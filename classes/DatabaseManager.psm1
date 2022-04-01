@@ -26,7 +26,7 @@ class DatabaseManager {
             $Comm = $this.Conn.CreateCommand()
             $Comm.CommandText = 'INSERT INTO CHECKING_RESULTS (PATH, DT, RESULT) VALUES (@PATH, @DT, @RESULT)'
             $Comm.Parameters.AddWithValue('@PATH', $СheckingResult.What)
-            $Comm.Parameters.AddWithValue('@DT', $СheckingResult.When)
+            $Comm.Parameters.AddWithValue('@DT', $СheckingResult.When.ToString('yyyy-MM-dd hh:mm:ss'))
             $Comm.Parameters.AddWithValue('@RESULT', $СheckingResult.Result)
             $Comm.ExecuteNonQuery()
         }
@@ -48,7 +48,7 @@ class DatabaseManager {
             $DataReader = $Comm.ExecuteReader()
             while ($DataReader.Read()){
                 $СheckingResult.What = $DataReader['PATH']
-                $СheckingResult.When = $DataReader['DT']
+                $СheckingResult.When = $DataReader.GetDatetime(1)
                 $СheckingResult.Result = $DataReader['RESULT'] -eq 1 ? $true : $false
             }
         }

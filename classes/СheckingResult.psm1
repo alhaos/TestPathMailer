@@ -1,6 +1,6 @@
 class СheckingResult {
     [string]$What 
-    [string]$When
+    [datetime]$When
     [bool]$Result
 
     СheckingResult([string]$Path){
