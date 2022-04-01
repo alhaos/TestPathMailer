@@ -1,40 +1,61 @@
-<# using assembly ..\lib\System.Data.SQLite.dll 
+using module .\СheckingResult.psm1
+using namespace System.Data.SQLite
 
-using namespace System.Data.Sqlite
-using namespace System.Data
+Set-StrictMode -Version 'latest'
 
 class DatabaseManager {
 
-    static GetLastValue () {
-        $datatable = [DataTable]::new()
+    $Conn = [SQLiteConnection]::new("Data Source=.\lib\database.db")
 
-        $ErrorActionPreference = 'stop'
-        $conn = [SQLiteConnection]::new("Data Source=C:\repositories\pwsh\sqlLite\lib\database.db")
-        $conn.Open()
-        $comm = $conn.CreateCommand()
+    DatabaseManager () {
+        $this.Conn.Open()
+        try {
+            $Comm = $this.Conn.CreateCommand()
+            $Comm.CommandText = "delete from CHECKING_RESULTS where DT < date('now','-90 day')"
+            #$Comm.ExecuteNonQuery()
+        }
+        finally {
+            $this.Conn.Close()
+        }
+    }
 
-        $comm.CommandText = 'select FILENAME, QSS_UPDATE_DATETIME from FILE'
-        $datatable.Load($comm.ExecuteReader())
-        $conn.Close()
+    Push ([СheckingResult]$СheckingResult) {
 
-        $newRow = $datatable.NewRow()
+        $this.Conn.Open()
+        try {
+            $Comm = $this.Conn.CreateCommand()
+            $Comm.CommandText = 'INSERT INTO CHECKING_RESULTS (PATH, DT, RESULT) VALUES (@PATH, @DT, @RESULT)'
+            $Comm.Parameters.AddWithValue('@PATH', $СheckingResult.What)
+            $Comm.Parameters.AddWithValue('@DT', $СheckingResult.When)
+            $Comm.Parameters.AddWithValue('@RESULT', $СheckingResult.Result)
+            $Comm.ExecuteNonQuery()
+        }
+        finally {
+            $this.Conn.Close()
+        }
+    }
 
-        $newRow['Filename'] = 'changelog'
-        $newRow['qss_update_datetime'] = [datetime]::Now
+    [СheckingResult] GetLast ([string]$Path){
 
-        $datatable.Rows.Add($newRow)
-
-        for ($i = 0; $i -lt $datatable.Rows.Count; $i++) {
-    
+        $СheckingResult = [СheckingResult]::new()
         
+        $this.Conn.Open()
+        
+        try {
+            $Comm = $this.Conn.CreateCommand()
+            $Comm.CommandText = 'select PATH, DT, RESULT from CHECKING_RESULTS where PATH = @PATH order by dt desc limit 1'
+            $Comm.Parameters.AddWithValue('@PATH', $Path)
+            $DataReader = $Comm.ExecuteReader()
+            while ($DataReader.Read()){
+                $СheckingResult.What = $DataReader['PATH']
+                $СheckingResult.When = $DataReader['DT']
+                $СheckingResult.Result = $DataReader['RESULT'] -eq 1 ? $true : $false
+            }
+        }
+        finally {
+            $this.Conn.Close()
         }
 
-        $datatable.Rows[0].Delete()
-        $datatable
-        $datatable.AcceptChanges()
-
-        $datatable
+        return $СheckingResult
     }
 }
-
- #>

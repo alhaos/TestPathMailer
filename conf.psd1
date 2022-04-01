@@ -3,7 +3,7 @@
     SilenceInterval = 10
     #Interval during which emails are not resent
 
-    Monitored = @(
+    MonitoredPath = @(
         @{
             Path                  = "c:\tmp"
             NotificationAddresses = @(
